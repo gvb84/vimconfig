@@ -18,3 +18,5 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 " open nerd tree with C-N
 map <C-n> :NERDTreeToggle<CR>
 
+set modelines=1
+set modeline
